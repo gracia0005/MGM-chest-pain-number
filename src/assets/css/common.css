@@ -1,0 +1,184 @@
+.main__logo {
+  width: 100px;
+}
+.brand__logo {
+  width: 150px;
+}
+.white-background {
+  background: #fff;
+  padding: 90px 0px;
+}
+.top-header-social {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0px;
+}
+
+.top-header-social li:first-child:hover {
+  background: #9c7c6e;
+  border: 1px solid #9c7c6e;
+}
+.top-header-social li:hover {
+  background: #507cbe;
+  border: 1px solid #507cbe;
+}
+.top-header-social li:hover svg {
+  fill: #fff;
+}
+.top-header-social li:first-child:hover svg {
+  fill: #fff;
+}
+.top-header-social li:first-child svg {
+  fill: #9c7c6e;
+  width: 15px;
+}
+.top-header-social li svg {
+  fill: #507cbe;
+}
+.top-header-social li {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 6px #707070;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}
+.top-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.Graybackground {
+  background: #fff3de 0% 0% no-repeat padding-box;
+  padding: 90px 0px;
+}
+.call__for__help {
+  font-family: "GothamRoundedBold";
+  color: #ff0000;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+.symptoms__list {
+  padding-left: 15px;
+}
+.symptoms__list li {
+  font-family: "GothamRoundedBook";
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+#ProfessionalHelp .symptom-title {
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#ProfessionalHelp .row {
+  max-width: 90%;
+  margin: auto;
+  padding-top: 20px;
+}
+#ProfessionalHelp .emg_desc {
+  margin-top: 0px;
+}
+#ProfessionalHelp.salient__features .row {
+  max-width: 100%;
+}
+#ProfessionalHelp.risk__factor .row {
+  max-width: 100% !important;
+}
+.risk__factor .col-lg-8 {
+  border-left: 1px solid #00000029;
+  padding-left: 40px;
+}
+.padding-left{
+  border-left: 1px solid #00000029;
+    padding-left: 40px;
+}
+.causes-list{
+  padding-left: 0px;
+    color: #4B4B4B !important;
+}
+.causes-list li {
+  font-family: "GothamRoundedBook";
+  color: #4B4B4B;
+  font-size: 16px;
+ padding-bottom: 30px;
+}
+#CausesOfChestPain .col-md-4{
+  padding-right: 50px;
+}
+#CausesOfChestPain .row{
+  margin-top: 30px;
+}
+#CausesOfChestPain .col-md-4:last-child{
+  padding-right: 0px;
+}
+.padding-right{
+  padding-right: 40px;
+}
+@media screen and (max-width: 991px) {
+  .Graybackground {
+    padding: 50px 0px;
+  }
+    .padding-right {
+      padding-right: 10px;
+    }
+    #CausesOfChestPain .col-md-4 {
+      padding-right: 10px;
+    }
+    .causes-list{
+      padding-left: 15px;
+    }
+  #ProfessionalHelp .row {
+    max-width: 100%;
+  }
+  #ProfessionalHelp .emg_desc {
+    text-align: center;
+    font-size: 15px;
+  }
+  #ProfessionalHelp .common__sub__title {
+    font-size: 17px;
+    text-align: center;
+  }
+  .call__for__help {
+    text-align: center;
+  }
+  #ProfessionalHelp .symptom-title {
+    text-align: center;
+  }
+  .white-background {
+    padding: 50px 0px;
+  }
+  .risk__factor .col-lg-8, .risk__factor .col-lg-7 {
+    border-left: none;
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+     .risk__factor .common__title, .modalities .common__title{
+text-align: center;
+  }
+    .modalities .line{
+      margin: auto !important;
+    }
+  #ProfessionalHelp.risk__factor .common__title__with__line {
+    text-align: center;
+  }
+  #ProfessionalHelp.risk__factor .common__title__with__line .line {
+    margin: auto;
+  }
+  #ProfessionalHelp.risk__factor .col-lg-4 .symptoms__list {
+    column-count: 2;
+    column-gap: 60px;
+    /* Optional: Adjust the space between columns */
+  }
+    .padding-left {
+      border-left: 0px;
+      padding-left: 10px;
+    }
+
+  #ProfessionalHelp.risk__factor .col-lg-4 .symptoms__list li {
+    break-inside: avoid;
+    /* Prevents breaking an item between columns */
+  }
+}

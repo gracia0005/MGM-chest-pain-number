@@ -1,0 +1,52 @@
+#thankyou {
+  width: 90%;
+  margin: auto;
+  margin-top: 249px;
+  margin-bottom: 140px;
+  min-height: 560px;
+}
+.thankyou-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.thankyou_img {
+  width: 200px;
+  height: 200px;
+}
+.thank-title {
+  font-family: "GothamRoundedBold" !important;
+  color: #000;
+  font-size: 50px;
+  margin: 20px 0px;
+}
+.thank-message {
+  font-family: "GothamRoundedBook" !important;
+  color: #000;
+  margin: 20px 0px;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .thank-message {
+    text-align: center;
+    font-size: 20px;
+  }
+  .thank-title {
+    font-size: 35px;
+  }
+  .thankyou_img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.back-btn {
+  text-decoration: none;
+  color: #fff !important;
+  font-family: "GothamRoundedBook" !important;
+  background: #02456a;
+  padding: 10px;
+  margin-top: 20px;
+}

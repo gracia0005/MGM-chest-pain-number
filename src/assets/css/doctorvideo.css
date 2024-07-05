@@ -1,0 +1,117 @@
+#ChectPain {
+  background: #fff3de;
+  padding: 90px 0px;
+}
+
+#ChectPain.immediateAction {
+  background: #fff !important;
+}
+.common__sub__title {
+  font-family: "GothamRoundedBold";
+  color: #000000;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.common__title {
+  font-family: "GothamRoundedBook";
+  color: #000000;
+  font-size: 35px;
+  /* padding-bottom: 10px; */
+  text-align: left;
+}
+.common__title span {
+  font-family: "GothamRoundedBold";
+  color: #000000;
+}
+.common__title__with__line {
+  padding-bottom: 20px;
+}
+#ChectPain .swiper-pagination {
+  position: relative !important;
+  top: 43px !important;
+  margin-bottom: 40px;
+}
+.swiper-pagination-bullet-active {
+  background: #ffc35a !important;
+}
+.line {
+  width: 100px;
+  height: 2px;
+  background-color: #ffc35a;
+  margin-top: 10px;
+  opacity: 1;
+}
+#ChectPain .line {
+  width: 130px;
+}
+.symptom-title {
+  font-family: "GothamRoundedBold";
+  font-size: 16px;
+  color: #000000;
+  padding-top: 60px;
+
+  text-align: center;
+}
+.chestPain__content {
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.symptom-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.myswiperChestPain {
+  margin-top: 60px;
+}
+.symptom-img {
+  width: 150px;
+}
+#ChectPain.immediateAction .symptom-img {
+  width: 130px;
+}
+#ChectPain.immediateAction .symptom-item p {
+  font-family: "GothamRoundedBook";
+  max-width: 80%;
+  margin: auto;
+}
+.symptom-item p {
+  font-family: "GothamRoundedBold";
+  font-size: 16px;
+  color: #000000;
+  padding-top: 10px;
+  text-align: center;
+}
+.max-row {
+  max-width: 80%;
+  margin: auto;
+  padding-top: 60px;
+}
+@media screen and (max-width: 991px) {
+  #ChectPain {
+    padding: 50px 0px;
+  }
+  .chestPain__content {
+    max-width: 100%;
+  }
+  .common__title {
+    font-size: 28px;
+  }
+  .symptom-title {
+    padding-top: 20px;
+  }
+  .max-row .pb-2 {
+    padding-bottom: 40px !important;
+  }
+  #ChectPain.immediateAction .symptom-item p {
+    max-width: 100%;
+  }
+  .max-row {
+    max-width: 100%;
+  }
+    .common__sub__title{
+      font-size: 18px;
+    }
+}

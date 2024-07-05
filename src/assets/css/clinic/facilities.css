@@ -1,0 +1,124 @@
+.facilities {
+  background: #bc9a76;
+  padding: 90px 0px;
+}
+.specialist .common__sub__title{
+padding-top: 50px;
+padding-bottom: 40px;
+}
+.facility__icon {
+  width: 27%;
+}
+.facility__flexRow {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+justify-content: center;
+text-align: center;
+  gap: 20px;
+  padding-bottom: 30px;
+  width: 60%;
+}
+.facility__flexRow p {
+  font-family: "GothamRoundedBook";
+  font-size: 18px;
+  color: #000;
+  width: 73%;
+}
+.facility__title {
+  font-family: "GothamRoundedBold";
+  font-size: 40px;
+  color: #21386f;
+  padding-bottom: 30px;
+}
+.facilities .row {
+  max-width: 90%;
+  margin: auto;
+}
+
+/* specialists */
+.specialist {
+  background: #eaedd8;
+  padding: 90px 0px;
+}
+.sub__title {
+  font-family: "GothamRoundedBook";
+  font-size: 26px;
+  color: #23376d;
+  padding-bottom: 30px;
+  /* padding-left: 20px; */
+  text-transform: uppercase;
+}
+.specialist .row {
+  max-width: 90%;
+  margin: auto;
+}
+.specialist__image {
+  width: 150px;
+}
+.doc__name{
+  font-family: "GothamRoundedBold" !important;
+  font-size: 18px !important;
+  color: #4B4B4B !important;
+  padding-bottom: 10px;
+}
+.specialist .facility__flexRow p {
+  font-size: 23px;
+  color: #223970;
+  width: 100% !important;
+}
+.doc__designation{
+  font-family: "GothamRoundedBook" !important;
+  font-size: 15px !important;
+  color: #4B4B4B !important;
+  padding-bottom: 10px;
+}
+#Specialists .facility__flexRow {
+  width: 100%;
+}
+/* .specialist .facility__flexRow .doc__designation {
+  font-size: 18px !important;
+} */
+@media screen and (max-width: 1200px) {
+  .facilities .row {
+    max-width: 100%;
+    margin: auto;
+  }
+  .specialist .row {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .facility__flexRow {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .facility__icon {
+    width: 20%;
+  }
+  .facility__flexRow p {
+    width: 80%;
+  }
+  .sub__title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .facility__flexRow p {
+    font-size: 17px !important;
+  }
+  /* .facility__icon {
+    width: 50px;
+  } */
+  .specialist .facility__flexRow p {
+    font-size: 16px;
+  }
+  .specialist__image {
+    width: 100px;
+  }
+  .specialist .facility__flexRow .doc__designation {
+    font-size: 15px !important;
+  }
+}

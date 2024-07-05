@@ -1,0 +1,269 @@
+.footer__container {
+  background-color:#000000;
+}
+#footer {
+  background: black;
+}
+.footer__container {
+  padding: 20px 0 35px;
+}
+.footer__container .main-logo {
+  width: 200px;
+  height: 53px;
+}
+
+.footerprivacy__container {
+  background-color: #23376d;
+}
+
+#footer .social__icon {
+  max-width: 25px;
+}
+
+
+.footer__aboutdescription {
+  font-family: "GothamRoundedBook";
+  font-size: 14px;
+  color: #4b4b4b;
+  margin-top: 20px;
+  line-height: 24px;
+  padding-right: 23%;
+}
+
+.quicklinks__title {
+  font-family: "GothamRoundedBold";
+  font-weight: 700;
+  color: #4b4b4b;
+  font-size: 16px;
+}
+
+.quicklinks__container {
+  margin-top: 29px;
+}
+
+.quicklinks__container ul li {
+  list-style-type: none;
+  font-family: "Gotham Rounded Light";
+  color: #4b4b4b !important;
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.quicklinks__container ul li a {
+  text-decoration: none;
+  color: #4b4b4b !important;
+}
+.footer__quicklinks h3 {
+  font-family: "GothamRoundedBook";
+  font-size: 23px;
+  color: #233a70;
+}
+
+.footer__about,
+.footer__quicklinks {
+  flex: 1;
+}
+.footer__about h3 {
+  font-family: "GothamRoundedBook";
+  color: #22396f;
+  font-size: 23px;
+}
+.location__text__title {
+  font-family: "GothamRoundedMedium";
+  color: #22396f;
+  padding: 22px 0px;
+  font-size: 20px;
+}
+.connected__title {
+  font-family: "GothamRoundedMedium";
+  color: #22396f;
+  padding: 30px 0px 22px 0px;
+  font-size: 20px;
+}
+.privacy__link {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Gotham Rounded Light";
+  margin-bottom: 10px !important;
+  border-bottom: 0.5px solid #fff;
+  margin-bottom: 15px !important;
+}
+.copy__right {
+  font-size: 14px;
+  text-align: center;
+  font-family: "Gotham Rounded Light";
+  color: white;
+}
+
+.footer__stickySection {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  z-index: 1000;
+  max-width: 100px;
+  background: #8d2b8a;
+  color: #fff;
+  text-align: center;
+}
+.Side__Icons {
+  display: grid;
+  max-width: 150px;
+  justify-items: center;
+}
+.footer__stickySection > div {
+  padding: 7px;
+  border: 0.5px solid #bdb5b5;
+  font-size: 12px;
+  display: grid;
+  max-width: 150px;
+  justify-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.footer__stickySection p {
+  margin-bottom: 0 !important;
+  font-weight: 600;
+}
+
+.footer__stickySection a,
+.mobile__stickySection a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.mobile__stickySection {
+  display: flex;
+  position: fixed;
+  top: auto;
+  z-index: 999;
+  transform: none;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  max-width: 100% !important;
+  background-color: #fbc15a;
+}
+
+.mobile__stickySection > div {
+  flex: 1;
+  border: none;
+  border-right: 1px solid #fdebca;
+  max-width: 99px;
+  gap: 3px;
+  display: grid;
+  justify-items: center;
+  padding: 7px;
+  font-size: 12px;
+}
+.mobile__stickySection p {
+  margin-bottom: 0 !important;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.2;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 5px;
+}
+.mobile__stickySection .emergancy__iconSection {
+  flex: 1 !important;
+  max-width: 100% !important;
+  background-color: #bc0a0a;
+  padding: 0;
+}
+
+.mobile__stickySection svg {
+  margin-bottom: 5px !important;
+}
+
+.mobile__stickySection a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  text-align: center;
+  line-height: 1.2;
+}
+.mobile__stickySection .emergency-text {
+  color: #fff;
+  margin-bottom: 0;
+  letter-spacing: 3.5px;
+  font-size: 14px;
+  display: block;
+  font-weight: 700;
+}
+.emergancy__iconSection a {
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.mobile__stickySection .emergency-btn {
+  color: #fff;
+  background: #bc0a0a;
+  font-size: 13px;
+}
+.svg__icons {
+  width: 30px !important;
+  height: 30px !important;
+}
+.mobile__stickySection .svg__icon {
+  width: 30px !important;
+  height: 30px;
+  background-size: cover;
+}
+.mobile__stickySection span {
+  width: 26px;
+  height: 20px;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  margin-bottom: 0 !important;
+  color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+  .footer__container .container {
+    flex-direction: column;
+    gap: 0 !important;
+  }
+  .footer__aboutdescription {
+    padding-right: 0px;
+  }
+  .footer__quicklinks h3 {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container .container {
+    padding: 50px 20px 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .justify-center {
+    justify-content: center;
+    padding-top: 10px;
+  }
+  .footer__aboutheader {
+    justify-content: center !important;
+  }
+}
+
+/* @media screen and (max-width: 500px) {
+  #footer {
+    padding-bottom: 66px;
+  }
+} */
+
+.copyright{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "GothamRoundedBook", sans-serif;
+}

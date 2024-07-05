@@ -1,0 +1,131 @@
+.aboutclinic {
+  padding: 90px 0px;
+  /* background: #f1f2f2; */
+}
+/* .about__right__content p {
+  font-family: "GothamRoundedBook";
+  font-size: 18px;
+  color: #414042;
+  line-height: 30px;
+} */
+.about__right__content ul {
+  padding-left: 15px;
+  margin-top: 20px;
+}
+.about__right__content ul li {
+  font-family: "GothamRoundedBook";
+  font-size: 18px;
+  color: #414042;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.aboutclinic .row {
+  align-items: center;
+  max-width: 100%;
+  margin: auto;
+}
+.left-img {
+  text-align: center;
+}
+.about__clinic__logo {
+  width: 500px !important;
+}
+
+.gastro .about__clinic__logo{
+width: auto !important;
+}
+@media screen and (max-width: 1200px) {
+  .aboutclinic .row {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .aboutclinic .row .col-md-12:first-child {
+    text-align: center;
+  }
+    .aboutclinic{
+      padding: 40px 0px;
+    }
+  .emg_sub__title {
+    font-size: 18px !important;
+  }
+  .emg__title {
+    font-size: 30px !important;
+  }
+  .aboutclinic .line {
+    margin: auto !important;
+  }
+  .about__clinic__logo {
+    width: 100% !important;
+  }
+   .gastro .common__title {
+      text-align: center;
+    }
+  .aboutclinic .row {
+    max-width: 100%;
+    align-items: flex-start;
+  }
+  /* .about__clinic__logo {
+    max-width: 100%;
+    margin: auto;
+    width: 400px;
+  } */
+  .about__clinic__logo img {
+    padding-bottom: 40px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .aboutclinic .row .col-md-12:first-child {
+    text-align: center;
+  }
+  /* .about__clinic__logo img {
+    width: 200px !important;
+    margin: auto;
+  } */
+}
+
+.emg_sub__title {
+  font-family: "GothamRoundedBook";
+  color: #000000;
+  font-size: 26px;
+}
+.emg__title {
+  font-family: "GothamRoundedBold";
+  color: #000000;
+  font-size: 50px;
+}
+ .aboutclinic .line {
+  width: 100px;
+  height: 2px;
+  background-color: #ffc35a;
+  margin-top: 10px;
+  opacity: 1;
+}
+.emg_title__desc {
+  font-family: "GothamRoundedBook";
+  font-size: 19px;
+  color: #414042;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.emg_desc {
+  font-family: "GothamRoundedBook";
+  font-size: 16px;
+  color: #414042;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bottom_emg_desc {
+  font-family: "GothamRoundedBook";
+  font-size: 16px;
+  color: #000;
+  padding-top: 10px;
+}
+.bottom_emg_desc b {
+  font-family: "GothamRoundedMedium";
+  color: #000000;
+}

@@ -1,0 +1,147 @@
+.form-header {
+  font-family: "GothamRoundedBold" !important;
+  color: #fff !important;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.contactFormSection {
+  background: #b89775 !important;
+  max-width: 85%;
+  border-radius: 10px;
+  margin-top: 0px !important;
+  padding: 20px;
+  padding: 30px 40px;
+  box-shadow: 0 3px 6px #00000029;
+  opacity: 1;
+  margin: auto;
+}
+.form-control {
+  background: #fff !important;
+  border-radius: 10px !important;
+  margin-bottom: 10px;
+}
+.form-control {
+  font-family: "GothamRoundedMedium" !important;
+  color: #000 !important;
+  font-style: normal !important;
+  font-size: 16px;
+}
+.form-control::placeholder {
+  font-family: "GothamRoundedMedium" !important;
+  color: #000 !important;
+  font-style: normal !important;
+  font-size: 16px;
+  opacity: 1;
+}
+.banner__details .formSubmit__btn {
+  background: #fff !important;
+  color: #000;
+  font-family: "GothamRoundedMedium" !important;
+  width: auto;
+  margin: auto;
+  margin-top: 30px;
+}
+input[type="tel"]::placeholder {
+  font-family: "GothamRoundedMedium" !important;
+  color: #000 !important;
+  font-style: normal !important;
+  font-size: 16px;
+  opacity: 1;
+}
+input[type="tel"] {
+  font-family: "GothamRoundedMedium" !important;
+  color: #000 !important;
+  font-style: normal !important;
+  font-size: 16px;
+  opacity: 1;
+}
+.err {
+  font-family: "GothamRoundedBook" !important;
+  font-size: 13px;
+  color: red;
+}
+.formSubmit__btn {
+  border-radius: 10px !important;
+  padding: 5px 30px;
+}
+.formSubmit__btn:hover {
+  color: #000 !important;
+}
+@media screen and (max-width: 991px) {
+  .contactFormSection {
+    max-width: 100%;
+  }
+}
+.countrycode__input {
+  width: 10%;
+}
+.phon-input {
+  width: 90%;
+  border-radius: 0px !important;
+  border-color: transparent !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+.form-control:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+.contactFormSection .flexRow {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background: #ffff;
+  border-radius: 10px !important;
+  padding-left: 20px;
+  height: 38px;
+}
+.react-international-phone-country-selector-button {
+  border: none !important;
+}
+.react-international-phone-country-selector-button:hover {
+  background-color: #fff !important;
+}
+.react-international-phone-input-container
+  .react-international-phone-input:focus {
+  outline: none !important;
+  border: none !important;
+}
+.react-international-phone-input {
+  border: none !important;
+}
+.phon-input::placeholder {
+  color: beige !important;
+}
+/* .flexRow {
+  display: flex;
+  position: relative;
+  background: #f0f0f0;
+  height: 36px;
+}
+.react-international-phone-input[readonly] input {
+  cursor: not-allowed !important;
+  /* Add other styles for the read-only state 
+}
+.react-international-phone-country-selector-button {
+  background: #f0f0f0 !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
+.react-international-phone-input {
+  background: #f0f0f0 !important;
+  border: none !important;
+  border-radius: none;
+  font-family: "GothamRoundedMedium" !important;
+  color: #f8f9fa !important;
+  font-style: normal !important;
+  font-size: 16px;
+  border-radius: 0px !important;
+}
+.react-international-phone-input::placeholder {
+  font-family: "GothamRoundedMedium" !important;
+  color: #f8f9fa !important;
+  font-style: normal !important;
+  font-size: 16px;
+  opacity: 1;
+} */

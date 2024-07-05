@@ -1,0 +1,637 @@
+#diseaseBanner .banner-wrapper_web {
+  position: relative;
+}
+#diseaseBanner .banner__details {
+  position: absolute;
+  left: 10%;
+  width: 32%;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 100;
+}
+#diseaseBanner.enrollbanner {
+  height: 100%;
+}
+#diseaseBanner.enrollbanner .main-wrapper {
+  height: 100%;
+}
+#diseaseBanner.enrollbanner .banner__details {
+  position: absolute;
+  right: 5%;
+  width: 35%;
+  top: 46%;
+  transform: translateY(-50%);
+  z-index: 100;
+  left: inherit;
+}
+
+#diseaseBanner.enrollbanner .banner-wrapper_web {
+  position: relative;
+  height: 100%;
+}
+#diseaseBanner.enrollbanner .banner-img {
+  height: 100%;
+  width: 100%;
+}
+#diseaseBanner.enrollbanner .banner-img > div {
+  max-width: 100% !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#diseaseBanner .dummy__banner {
+  height: 500px;
+  background-color: #eee;
+}
+#diseaseBanner .section-title {
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+  line-height: 90px;
+}
+#diseaseBanner .about__banner .banner__details .desc {
+  font-size: 15px !important;
+}
+
+.section-title {
+  font-family: "raleway-regular" !important;
+  color: #01466a;
+  font-size: 60px;
+}
+.section-title span {
+  color: #fff;
+  font-family: "raleway-bold" !important;
+}
+
+#diseaseBanner .desc {
+  font-family: "raleway-regular" !important;
+  font-size: 20px;
+  color: #fff !important;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#diseaseBanner .desc span {
+  font-family: "raleway-bold" !important;
+  color: #fff;
+}
+.mob-test {
+  display: none;
+}
+.bt {
+  border-top: 1px solid #00000029;
+}
+.banner-apps {
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.bannerapp-img img {
+  width: 150px;
+}
+.entroll-btn {
+  background: #0b78bc;
+  opacity: 1;
+  color: #fff;
+  font-family: "raleway-bold";
+  font-size: 16px;
+  /* text-transform: none; */
+  text-decoration: none;
+  padding: 4px 10px;
+  max-width: 100%;
+  line-height: 30px;
+  width: 150px;
+  border-color: transparent;
+  text-align: center;
+  border-radius: 0px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+.entroll-btn:hover {
+  background: #0b78bc;
+  border-color: transparent;
+}
+.entroll-btn:focus-visible {
+  box-shadow: none;
+  background: #0b78bc;
+  border-color: transparent;
+}
+.contact-btn {
+  background: #fff;
+  opacity: 1;
+  color: #0b78bc;
+  font-size: 16px;
+  font-family: "raleway-bold";
+  text-transform: none;
+  text-decoration: none;
+  padding: 4px 10px;
+  max-width: 100%;
+  width: 150px;
+  text-align: center;
+  border-color: transparent;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 0px !important;
+}
+.contact-btn:hover {
+  background: #fff;
+  border-color: transparent;
+}
+.contact-btn:focus-visible {
+  box-shadow: none;
+  background: #fff;
+  border-color: transparent;
+}
+.banner-data {
+  margin-bottom: 25px;
+}
+.banner-data h2 {
+  font-family: "GothamRoundedMedium", sans-serif;
+  font-size: 50px;
+  color: #ba7959;
+  text-align: center;
+}
+.banner-data h2 span {
+  color: #d81d5c !important;
+}
+.mob-banner-img {
+  display: none !important;
+}
+.banner-data p {
+  font-family: "GothamRoundedBook";
+  font-size: 18px;
+  line-height: 35px;
+  color: #414042;
+}
+.banner-data ul li {
+  font-family: "GothamRoundedBook";
+  font-size: 16px;
+  line-height: 25px;
+  color: #414042;
+}
+#diseaseBanner.package .banner__details {
+  width: 45%;
+  left: 7%;
+}
+#diseaseBanner.package.mission .banner__details{
+  width: 32%;
+}
+#diseaseBanner.package.mission .header-social-mob{
+display: flex;
+list-style-type: none;
+align-items: center;
+gap: 10px;
+
+
+}
+#diseaseBanner.package.mission .common__title span{
+font-size: 38px;
+}
+#diseaseBanner.package.mission .header-social-mob li svg{
+  fill: #fff !important;
+}
+.image_1 {
+  width: 60%;
+  margin-left: -12px;
+}
+.image_2 {
+  width: 40%;
+}
+.image_1 img {
+  width: 320px !important;
+  height: 150px !important;
+}
+.image_2 img {
+  width: 200px !important;
+  height: 200px !important;
+}
+.banner-data h3 {
+  font-family: "GothamRoundedBook";
+  font-size: 25px;
+  padding: 10px 0px;
+  color: #414042;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.banner-data h3 span {
+  color: #d81d5c !important;
+}
+.apply__btn {
+  font-family: "GothamRoundedMedium";
+  background: #ffcc4f;
+  opacity: 1;
+  border: none;
+  padding: 5px 30px;
+  border-radius: 20px;
+  color: #000;
+  font-size: 20px;
+  margin: 10px 0px 15px;
+}
+.download__link {
+  font-family: "GothamRoundedMedium";
+  font-size: 16px;
+  color: #0623f8;
+}
+.banner-data-flex {
+  display: flex;
+
+  align-items: center;
+}
+.text_1 {
+  font-family: "GothamRoundedBold" !important;
+  font-size: 33px !important;
+  color: #21386f;
+  padding-bottom: 30px;
+  max-width: 50%;
+  padding-bottom: 0px !important;
+}
+.text_2 {
+  font-family: "GothamRoundedBold" !important;
+  font-size: 33px !important;
+  color: #892c84;
+  padding-bottom: 30px;
+  max-width: 50%;
+  padding-bottom: 0px !important;
+}
+@media (max-width: 1407px) {
+  .text_1 {
+    max-width: 60%;
+  }
+  .text_2 {
+    max-width: 60%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1150px) {
+  .text_1 {
+    max-width: 70%;
+  }
+  .text_2 {
+    max-width: 70%;
+  }
+  .image_1 img {
+    width: 280px !important;
+    height: 130px !important;
+  }
+  .image_2 img {
+    width: 180px !important;
+    height: 180px !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1366px) {
+  .section-title {
+    font-size: 60px;
+  }
+  #diseaseBanner .banner__details {
+    width: 50%;
+    left: 8%;
+  }
+  .banner-data h2 {
+    font-size: 40px;
+  }
+  .banner-apps {
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+  #diseaseBanner .desc {
+    font-size: 16px;
+  }
+}
+.mob-banner-img>div{
+  max-width: 100% !important;
+}
+@media screen and (max-width: 991px) {
+  #Abouttest {
+    margin-top: 91px !important;
+  }
+    #diseaseBanner.package.mission .header-social-mob {
+    position: absolute;
+      top: 200%;
+      left: 33%;
+     
+  
+  
+    }
+            #diseaseBanner.package.mission .header-social-mob li svg{
+              fill: #26386C !important;
+              width: 20px;
+              height: 20px;
+            }
+    #diseaseBanner.package.mission .banner__details{
+      width: 95%;
+      position: absolute;
+      text-align: center;
+    }
+         #diseaseBanner.package.mission .common__title{
+          text-align: center;
+        }
+
+  #diseaseBanner.enrollbanner .web_test {
+    display: block !important;
+  }
+  .web_test .banner-img {
+    display: none !important;
+  }
+  .mob-banner-img {
+    display: block !important;
+    width: 100%;
+  }
+
+  #diseaseBanner .banner__details {
+    position: inherit;
+    top: 0px !important;
+    left: 0px !important;
+    transform: none !important;
+    width: 95%;
+    margin: auto;
+    padding: 50px 10px;
+  }
+  #diseaseBanner.package .banner__details {
+    width: 95%;
+  }
+  .mob-test {
+    display: block;
+    position: relative;
+  }
+  .AboutTest_wrapper {
+    position: absolute;
+    top: 20%;
+    right: 10px;
+    left: 10px;
+  }
+  .AboutTest_wrapper .desc {
+    text-align: center !important;
+    font-size: 18px !important;
+  }
+  .AboutTest_wrapper .section-title {
+    width: 100%;
+    text-align: center !important;
+  }
+  #Abouttest .banner-apps {
+    margin-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .banner-apps {
+    justify-content: center;
+  }
+  .mob-test .entroll-btn {
+    margin-top: 30px;
+    /* position: absolute;
+    bottom: 35px;  */
+  }
+  #diseaseBanner .desc {
+    color: #fff !important;
+  }
+  .section-title {
+    font-size: 40px;
+    line-height: 50px !important;
+    width: 90%;
+    margin: auto !important;
+    padding-bottom: 20px;
+    color: #01466a;
+    text-align: center;
+  }
+  .section-title span {
+    color: #0b78bc;
+  }
+  #diseaseBanner .desc,
+  .banner-apps {
+    margin-left: 0px;
+  }
+  .about__banner .banner__subtitle {
+    margin-left: 0px !important;
+    font-size: 20px !important;
+  }
+  .about__banner .regularFont {
+    font-family: "raleway-regular" !important;
+    font-size: 25px;
+  }
+  .about__banner .section-title {
+    font-size: 25px !important;
+  }
+  /* .bannerapp-img img {
+    width: 100px;
+    height: 100px;
+  } */
+}
+
+@media screen and (max-width: 767px) {
+  .text_1 {
+    max-width: 70%;
+  }
+  .text_2 {
+    max-width: 70%;
+  }
+  .image_1 img {
+    width: 255px !important;
+    height: 126px !important;
+  }
+  .image_2 img {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 850px) {
+  #diseaseBanner.enrollbanner .banner__details {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #diseaseBanner.enrollbanner .web_test {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #diseaseBanner .banner-wrapper_web {
+    margin-top: 65px !important;
+  }
+  #diseaseBanner.package .banner-wrapper_web {
+    margin-top: 0px !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  .banner-data h2 {
+    font-size: 35px;
+  }
+  .section-title {
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  /* .section-title span{
+    color: #0B78BC;
+  } */
+  .contact-btn {
+    width: 130px;
+  }
+  .entroll-btn {
+    width: 130px;
+  }
+  #Abouttest {
+    margin-top: 70px !important;
+  }
+  .AboutTest_wrapper {
+    top: 10%;
+    right: 10px;
+    left: 10px;
+  }
+  .text_1 {
+    max-width: 90%;
+  }
+  .text_2 {
+    max-width: 900%;
+  }
+  .banner-data-flex {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .image_1 {
+    width: 100% !important;
+  }
+  .image_2 {
+    width: 100% !important;
+  }
+  .image_1 img,
+  .image_2 img {
+    margin: auto !important;
+  }
+}
+
+/* About mobile banner */
+@media screen and (max-width: 991px) {
+  .about__banner .AboutTest_wrapper .section-title {
+    width: 100%;
+    text-align: left !important;
+  }
+  .about__banner .AboutTest_wrapper .desc {
+    text-align: left !important;
+    font-size: 18px !important;
+  }
+  .about__banner .AboutTest_wrapper {
+    top: 10%;
+    right: 20px;
+    left: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .about__banner .AboutTest_wrapper .desc {
+    font-size: 14px !important;
+  }
+  /* .about__banner .AboutTest_wrapper{
+    top: 5%;
+  } */
+  #diseaseBanner .about__banner .section-title {
+    font-size: 25px !important;
+    line-height: 28px !important;
+  }
+}
+
+/* parnerbanner css */
+.partner-banner .desc {
+  padding-left: 17px;
+}
+.partner-banner .desc li {
+  font-family: "raleway-medium" !important;
+  font-size: 16px;
+  color: #000000 !important;
+}
+
+@media screen and (max-width: 991px) {
+  .partner-banner .banner__subtitle {
+    font-size: 17px !important;
+  }
+  #diseaseBanner.partner-banner .about__banner .section-title {
+    font-size: 25px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .download__link {
+    display: block;
+    text-align: center;
+    /* margin-top: 20px; */
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .partner-banner .desc li {
+    font-size: 14px;
+  }
+}
+
+/* package css */
+.package .banner-data h2 {
+  text-align: left;
+}
+.medium__font {
+  font-family: "GothamRoundedMedium", sans-serif !important;
+  width: 80%;
+  padding: 10px 0px;
+  /* padding-top: 10px; */
+}
+#diseaseBanner.package .banner-data {
+  margin-top: 10px;
+}
+#diseaseBanner.package .banner-data p {
+  font-family: "GothamRoundedBook", sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  color: #fff;
+  opacity: 0.8;
+}
+#diseaseBanner.package .banner-data p b{
+  font-family: "GothamRoundedBold", sans-serif !important;
+}
+.apply__btn {
+  font-family: "GothamRoundedMedium", sans-serif;
+  border: none;
+  background: #ffc107;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.flexRow {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.package .common__title{
+  color: #fff !important;
+  padding-bottom: 0px;
+}
+.package .common__title span{
+  color: #fff !important;
+}
+.package ul{
+  padding-left: 0px;
+  color: #fff !important;
+  margin-top: 30px;
+}
+.package ul li{
+  padding-bottom: 30px;
+}
+.package ul li::marker{
+  color: #fff !important;
+}
+.cause-item-title{
+  font-family: "GothamRoundedMedium", sans-serif !important;
+  opacity: 1 !important;
+}
+
+@media screen and (max-width: 991px) {
+/* .banner--details{
+  background: #323027;
+
+  padding: 20px 10px;
+} */
+.package ul:last-child{
+  margin-top: 0px;
+}
+.package ul{
+  padding-left: 15px;
+}
+#diseaseBanner.package .banner-wrapper_web{
+  background: #323027;
+}
+}

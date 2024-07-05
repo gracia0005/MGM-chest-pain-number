@@ -1,0 +1,201 @@
+#home__testimonial {
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+  padding: 60px 0;
+}
+.why__desc__wrap {
+  text-align: left;
+}
+#home__testimonial .testimonial__bgImage {
+  width: 100%;
+}
+#home__testimonial .testimonial__bgImage > div {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+#home__testimonial .sub_heading {
+  color: #fff !important;
+  margin-bottom: 0px !important;
+}
+#home__testimonial .sec__title {
+  font-family: "GothamRoundedBold";
+  font-size: 26px;
+  color: #fff !important;
+}
+#home__testimonial .overlay__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  margin-top: 10px;
+}
+.testimonial__wrap {
+  background: #bc9a76;
+  padding: 30px 40px;
+  color: #fff;
+}
+.testimonial__wrap hr {
+  background-color: #fff;
+  border: none;
+  display: inline-block;
+  height: 4px;
+  margin-bottom: 20px;
+  margin-top: 9px;
+  width: 100px;
+  opacity: 1;
+}
+.testimonial__wrap .head__section .sub_heading {
+  color: #fff !important;
+}
+
+.testimonial__wrap .service__listrow {
+  border-bottom: 0px;
+}
+.testimonial__wrap .service__listrow p {
+  color: #fff !important;
+}
+.sec__title1 {
+  font-family: "GothamRoundedBold", sans-serif;
+  font-size: 30px;
+  line-height: 25px;
+  color: #22386e;
+}
+/* .testimonial--panel {
+  margin-top: 40px;
+} */
+.testimonial--panel .why_desc p {
+  font-family: "GothamRoundedBook", sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  color: #fff;
+}
+#testimonial-slider .slick-prev:before,
+#testimonial-slider .slick-next:before {
+  font-size: 30px;
+}
+#testimonial-slider .slick-prev {
+  left: -50px;
+}
+#testimonial-slider .slick-next {
+  right: -41px;
+}
+.testimonial__know {
+  display: none;
+}
+.right__content {
+  font-weight: 300;
+  font-family: "Gotham Rounded Light", sans-serif;
+  font-size: 16px;
+}
+.video-item {
+  width: 100%;
+}
+@media screen and (max-width: 991px) {
+  #home__testimonial .testimonial--panel .row {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  #home__testimonial .testimonial--panel .why__desc__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .right__content {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .testimonial__wrap .service__listrow {
+    display: block;
+  }
+  .testimonial__know {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .testimonial__know a {
+    font-family: "Gotham Rounded Light", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+  }
+  .testimonial__know a:hover {
+    text-decoration: none;
+  }
+  .testimonial__wrap {
+    padding: 30px 20px;
+  }
+  .modal__videoPlayer {
+    height: 200px !important;
+  }
+  .testimonial__wrap .head__section {
+    text-align: center;
+  }
+  #home__testimonial .sec__title {
+    font-size: 26px;
+    padding-top: 10px;
+  }
+}
+
+#home__testimonial .swiper-pagination {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+#home__testimonial .swiper-pagination-bullet {
+  background: none !important;
+  border: 1px solid #fff !important;
+  opacity: 1;
+}
+#home__testimonial .swiper-pagination-bullet-active {
+  background: #fff !important;
+}
+
+.testimonial__section {
+  padding: 60px 0px;
+}
+
+.testimonial__section .swiper-pagination-bullet-active {
+  background: #fff !important;
+}
+.testimonial__section .swiper-pagination-bullet {
+  border: 1px solid #fff !important;
+  opacity: 1;
+  background: transparent;
+}
+
+.timeline-navigation-left {
+  background: #fff;
+  border-radius: 50%;
+  color: #22386e;
+  left: -9px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.timeline-navigation-right {
+  background: #fff;
+  border-radius: 50%;
+  color: #22386e;
+  position: absolute;
+  right: -9px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.custom__navigation svg {
+  height: 25px;
+  width: 25px;
+}
+.cursor {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.testimonial--panel .row {
+  align-items: center;
+}
+/* .head__section .text-white {
+  color: #fff !important;
+} */

@@ -1,0 +1,251 @@
+@import "typography.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  /* height: 100%; */
+  font-family: "raleway-regular" !important;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+.enroll-main{
+  height: calc(100vh - 89.4px);
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  margin-bottom: 0 !important;
+}
+h1 {
+  font-size: 42px;
+}
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+}
+
+input:focus {
+  border: 1px solid #1aafce !important;
+}
+
+input:focus-visible {
+  outline: none !important;
+}
+
+label {
+  margin-bottom: 0 !important;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #b8bec5 !important;
+  font-family: "baloo-light";
+  font-size: 14px;
+  text-overflow: ellipsis;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #b8bec5 !important;
+  font-family: "baloo-light", "san-serif";
+  font-size: 14px;
+  text-overflow: ellipsis;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #b8bec5 !important;
+  font-family: "baloo-light", "san-serif";
+  font-size: 14px;
+  text-overflow: ellipsis;
+}
+.form-heading{
+  font-family: "raleway-regular";
+  color: #0E568F;
+  font-size: 40px;
+ text-align: center;
+ padding-bottom: 20px;
+}
+.modal-body{
+ 
+  padding:0px 20px 60px ;
+}
+.modal-header{
+  border-bottom: none;
+}
+/* .container{
+  max-width: 1250px;
+} */
+.primaryColor {
+  color: #2c5890 !important;
+}
+
+.secondaryColor {
+  color: #868686 !important;
+}
+
+.bgColor {
+  background-color: #f2f8ff !important;
+}
+.colorGreen {
+  color: #358e74;
+}
+.colorViolet {
+  color: #8236ed;
+}
+.colorBlue {
+  color: #2859d3;
+}
+.colorYellow {
+  color: #b28e03;
+}
+.RegularText {
+  font-family: "raleway-regular" !important;
+  font-size: 20px;
+  color: #0e568f;
+}
+.BoldText {
+  font-family: "raleway-bold" !important;
+}
+.main-wrapper {
+  width: 100%;
+}
+.container-wrapper {
+  width: 89%;
+  margin: auto;
+}
+
+.floatButtonContainer1 {
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+}
+
+.regularFont {
+  font-family: "raleway-regular" !important;
+}
+.lightFont {
+  font-family: "raleway-light" !important;
+}
+.mediumFont {
+  font-family: "raleway-medium" !important;
+}
+.semiFont {
+  font-family: "raleway-semibold" !important;
+}
+.boldFont {
+  font-family: "raleway-bold" !important;
+}
+.exBoldFont {
+  font-family: "raleway-extrabold" !important;
+}
+.thinFont {
+  font-family: "raleway-thin" !important;
+}
+.bgDark {
+  background-color: #e6e6e6;
+}
+.exLightFont {
+  font-family: "raleway-extralight" !important;
+}
+
+.line {
+  height: 1.5px;
+  background-color: #dbdbdb;
+  width: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .floatButtonContainer1 .float__btn {
+    width: 50px;
+    height: 50px;
+  }
+  .form-heading{
+  
+    font-size: 25px;
+   
+  }
+}
+
+
+@media screen and (max-width: 500px){
+  /* #diseaseBanner .desc {
+    font-size: 14px !important;
+} */
+.about-desc{
+  font-size: 14px !important;
+}
+.quote{
+  font-size: 14px !important;
+}
+#about .title{
+  font-size: 30px !important;
+}
+.skill-title{
+  font-size: 30px !important;
+}
+.skill-desc{
+  font-size: 14px !important;
+}
+}
+
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  /* display: none; */
+  left: 23%;
+  z-index: 1000;
+}
+
+.floating-button button {
+  background: #0B78BC;
+  opacity: 1;
+  color: #fff;
+  font-family: "raleway-bold";
+  font-size: 16px;
+  /* text-transform: none; */
+  text-decoration: none;
+  padding: 4px 10px;
+  max-width: 100%;
+  line-height: 30px;
+  width: 250px;
+  border-color: transparent;
+  text-align: center;
+  border-radius: 0px;
+  box-shadow: 0px 3px 6px #00000029;
+}
+
+/* @media screen and (max-width: 768px){
+  .floating-button{
+    display: block;
+  }
+} */

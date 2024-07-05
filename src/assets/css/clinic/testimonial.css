@@ -1,0 +1,84 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials {
+  background: #cbcccf;
+  padding: 90px 0px;
+}
+.testimoial--content {
+  padding: 0px 90px;
+}
+.testimoial--content h3 {
+  font-family: "GothamRoundedBook";
+  font-size: 27px;
+  color: #21386f;
+  padding-bottom: 20px;
+}
+.testimoial--content p {
+  font-family: "GothamRoundedBook";
+  font-size: 18px;
+  color: #414042;
+  padding-bottom: 20px;
+}
+.swiper-pagination-bullet {
+  background: #000 !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+.swiper-pagination-bullet-active {
+  background: #000 !important;
+}
+.swiper-button-prev {
+  color: #000 !important;
+}
+.swiper-button-prev:after {
+  font-size: 26px !important;
+}
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 1 !important;
+}
+.swiper-button-next {
+  color: #000 !important;
+}
+.swiper-button-next:after {
+  font-size: 26px !important;
+}
+.swiper-button-next.swiper-button-disabled {
+  opacity: 1 !important;
+}
+.testimonials .row {
+  max-width: 80%;
+  margin: auto;
+}
+.swiper-pagination {
+  position: relative !important;
+}
+
+@media screen and (max-width: 600px) {
+  .testimonials .row {
+    max-width: 100%;
+    margin: auto;
+  }
+  .testimoial--content {
+    padding: 0px 20px;
+  }
+  .swiper-button-prev {
+    display: none !important;
+  }
+  .swiper-button-next {
+    display: none !important;
+  }
+}
